@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextEmailLogin" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -59,6 +59,18 @@
         app:layout_constraintStart_toStartOf="@+id/editTextText3"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
-
+    <TextView
+        android:id="@+id/textViewRedirect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="New User? Register Here"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:onClick="setTextViewRegister"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

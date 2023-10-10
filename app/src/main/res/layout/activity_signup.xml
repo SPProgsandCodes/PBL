@@ -92,6 +92,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="Register"
+        android:onClick="setBtnRegister"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="@+id/editTextReenterPasswordSignup2"
         app:layout_constraintStart_toStartOf="@+id/editTextReenterPasswordSignup2"
